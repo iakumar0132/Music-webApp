@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+body{
+    background-color: beige;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu',sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+    }
+nav ul li{
+    padding: 0 12px;
+    cursor: pointer;
+}
+h3{
+    text-align: center;
+    background-color: rgb(159, 115, 115);
+    color: rgb(43, 45, 47);
+}
+.h4{
+    cursor: pointer;
+    text-align: center;
+    font-weight: bolder;
+    color:black;
+}
+.brand img{
+    padding: 0 5px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    background-image: url(bgfor\ spotify.jpeg);
+}
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: aliceblue;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myprogressbar{
+    width: 80vw;
+}
+.icons{
+    color: aliceblue;
+    cursor: pointer;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    }
+    .songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 35px;
+    }
+    .timestamp{
+    margin: 0 23px;
+    }
+    .timestamp i{
+        cursor: pointer;
+    }
+.end{
+    text-align: center;
+}
+.gif{
+    place-items: center;
+}
+.fa-pause-circle:before {
+    content: "\f28b";
+    cursor: pointer;
+}
